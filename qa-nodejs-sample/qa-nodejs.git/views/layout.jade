@@ -1,0 +1,30 @@
+//- layout.jade
+doctype html
+html(lang="en")
+  head
+    block title
+      title Question and Answer
+
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+
+    link(rel="shortcut icon", href="/images/qa.ico", type="image/x-icon")
+    link(rel="icon", href="/images/qa.ico", type="image/x-icon")
+    link(rel="stylesheet", href="/css/watson-bootstrap-dark.css")
+    link(rel="stylesheet", href="/css/browser-compatibility.css")
+    link(rel="stylesheet", href="/css/style.css")
+    block extrahead
+  body
+    div.container
+      div.header.row
+        div.col-lg-3
+          img(src="/images/app.png")
+        div.col-lg-8
+          h2 Team 7 Question Answer NodeJS Application
+          p Team 7 Question Answer (QA) <br> 1.Kaustubh Kulkarni <br> 2.Pranav Dhapke <br> 3.Tanvi Deo <br> 4. Nikhil Chavan 
+            
+      block row-content
+    script(type='text/javascript', src="/js/css_browser_selector.js")
+    script(type='text/javascript', src="/js/jquery-1.11.1.min.js")
+    script(type='text/javascript', src="/js/example_input.js")
